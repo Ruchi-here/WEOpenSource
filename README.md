@@ -40,29 +40,54 @@ To run WEOpenSource locally, ensure you have the following prerequisites install
 - Node.js: [Download Node.js](https://nodejs.org/)
 - npm (Node Package Manager): This is typically included with Node.js installation.
 
-### Installation
+### Streamlit Bot Setup
 
 1. Clone the repository:
 
    ```bash
    git clone https://github.com/yourusername/WEOpenSource.git
-   cd WEOpenSource
-   ```
 
-2. Install project dependencies:
+    Navigate to the Streamlit Bot folder:
 
-   ```bash
-   npm install
-   ```
+    bash
 
-3. Start the development server:
+cd WEOpenSource/StreamLitBot
 
-   ```bash
-   npm start
-   ```
+Run the Streamlit bot:
 
-   WEOpenSource should now be running locally at `http://localhost:3000/`.
-   
+bash
+
+    streamlit run streamlit_app.py
+
+    The Streamlit bot should now be running on http://localhost:8501/.
+
+Main Website Setup
+
+    Open a new terminal.
+
+    Navigate to the Main Website folder:
+
+    bash
+
+cd WEOpenSource/MainWebsite
+
+Install project dependencies:
+
+bash
+
+npm install
+
+Start the development server:
+
+bash
+
+npm start
+
+WEOpenSource should now be running locally at http://localhost:3000/.
+
+
+
+
 ![command](https://github.com/Ruchi-here/WEOpenSource/assets/122676573/2994540f-ed77-43cd-9313-7a60180f2f74)
 
    
