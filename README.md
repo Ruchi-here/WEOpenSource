@@ -48,41 +48,51 @@ To run WEOpenSource locally, ensure you have the following prerequisites install
    git clone https://github.com/yourusername/WEOpenSource.git
    ```
    
-   Navigate to the Streamlit Bot folder:
+2. Navigate to the Streamlit Bot folder:
 
+```bash
 cd WEOpenSource/StreamLitBot
+```
 
-Run the Streamlit bot:
+3. Run the Streamlit bot:
 
-bash
+```bash
 
     streamlit run streamlit_app.py
+```
 
-    The Streamlit bot should now be running on http://localhost:8501/.
+The Streamlit bot should now be running on http://localhost:8501/.
+
 
 Main Website Setup
 
-    Open a new terminal.
+Open a new terminal.
 
-    Navigate to the Main Website folder:
+1.Navigate to the Main Website folder:
 
-    bash
+```bash
 
 cd WEOpenSource/MainWebsite
+```
 
-Install project dependencies:
+2. Install project dependencies:
 
-bash
+```bash
 
 npm install
 
-Start the development server:
+```
 
-bash
+2. Start the development server:
+
+```bash
 
 npm start
 
+```
+
 WEOpenSource should now be running locally at http://localhost:3000/.
+
 
 
 
