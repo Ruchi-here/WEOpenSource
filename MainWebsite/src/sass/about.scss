@@ -1,0 +1,22 @@
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px; /* Adjust the padding as needed */
+}
+
+
+.about-project {
+  font-size:30px;
+  flex: 1; /* Take up remaining space */
+  padding: 20px; /* Adjust the padding as needed */
+}
+
+
+.image-container {
+  flex: 1; /* Take up remaining space */
+  text-align: center; /* Center the image horizontally */
+}
+
+
+

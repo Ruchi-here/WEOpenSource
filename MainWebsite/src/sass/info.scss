@@ -1,0 +1,46 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 20vh;
+}
+
+/* Center-align the description text container */
+.description-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left:350px;
+  margin-right:350px;
+  font-size: 20px;
+}
+
+/* Center-align the description text */
+.description {
+  text-align: center;
+  margin-top:20px;
+}
+
+.info-flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.info-item p {
+  margin-left: 25px;
+  font-size:20px;
+  /* Add this to show each content in a newline */
+  white-space: pre-line;
+}
+

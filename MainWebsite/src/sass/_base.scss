@@ -1,0 +1,88 @@
+:root {
+  // --desaturated-dark-cyan: hsl(199, 100%, 61%);
+  --light-blue: hsl(199, 74%, 55%);
+  --bg-light-grayish-cyan: hsl(180, 52%, 96%); //(Background)
+  --tabs-light-grayish-cyan: hsl(180, 31%, 95%); //(Filter Tablets)
+  --dark-grayish-cyan: hsl(180, 8%, 52%);
+  --very-dark-grayish-cyan: hsl(180, 14%, 20%);
+  --white: white;
+  --header-height: 9rem;
+}
+
+$bp-medium: 650px;
+$bp-small: 315px;
+$bp-very-small: 250px;
+
+html {
+  @media screen and (max-width: $bp-small) {
+    font-size: 0.8rem;
+  }
+
+  @media screen and (max-width: $bp-very-small) {
+    font-size: 0.6rem;
+  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "League Spartan", sans-serif;
+  position: relative;
+  background-color: var(--bg-light-grayish-cyan);
+
+  // Custom touch
+  background-color: var(--bg-light-grayish-cyan);
+  background-size: 10px 10px;
+
+}
+
+.container {
+  margin: auto;
+  padding: 10rem 1rem 5rem;
+  max-width: 500px;
+
+  @media screen and (min-width: $bp-medium) {
+    max-width: 1200px;
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+//
+::selection {
+  background-color: var(--light-blue);
+  color: var(--white);
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--light-blue) var(--bg-light-grayish-cyan);
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--bg-light-grayish-cyan);
+  width: 12px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--light-blue);
+  border-radius: 20px;
+  border: 3px solid var(--bg-light-grayish-cyan);
+}
+

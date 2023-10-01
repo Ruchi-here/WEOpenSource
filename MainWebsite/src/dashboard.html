@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./sass/main.scss">
+</head>
+<body>
+    
+<nav class="navigation">
+    <ul class="navigation__menu">
+        <li class="navigation__item">
+            <a href="about.html">Home</a>
+        </li>
+        <li class="navigation__item">
+            <a href="http://localhost:8501/">HelpBot</a>
+        </li>
+        <li class="navigation__item">
+            <a href="addProj.html">Add Proj</a>
+        </li>
+       <li class="navigation__item">
+            <a href="index.html">Find Proj</a>
+        </li>
+    </ul>
+</nav>
+    
+    <main style="margin-bottom:40px;">
+    
+    <h1>Dashboard</h1>
+    
+    <p style="font-size:20px; margin-top:30px; margin-bottom:15px;">See who all are your contributors</p>
+	 <button id="button">
+    <a href="https://github.com/tensorflow/tensorflow/graphs/contributors">Go to Contributors Page</a></button>
+    
+    <p style="font-size:20px; margin-top:30px; margin-bottom:15px;">Go to your Project's GitHub Page</p>
+        <button id="button">
+    <a href="https://github.com/tensorflow/tensorflow">Project page GitHub</a></button>
+    
+    <p style="font-size:20px; margin-top:30px; margin-bottom:15px;">Check the details about your project</p>
+        <button id="button">
+    <a href="info.html">Show Info</a></button>
+
+   <div>
+   <p style="margin-top:40px; font-size:40px;">Select the participants</p>
+   <div>
+
+<div class="flex-container" style="margin-top:10px; display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 10px;">
+    <div>
+        <img src="https://plus.unsplash.com/premium_photo-1689530775582-83b8abdb5020?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmFuZG9tJTIwcGVyc29ufGVufDB8fDB8fHww&w=1000&q=80" width="70px">
+    </div>
+    <div>
+        <a href="https://github.com/Ruchi-here">GitHub Profile</a>
+    </div>
+    <div>
+        <p>Skills: Machine Learning</p>
+    </div>
+    <div>
+        <button class="accept-button">Accept</button>
+        <button class="reject-button" style="margin-top:5px;">Reject</button>
+    </div>
+</div>
+
+
+<div class="flex-container" style="margin-top:50px; display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 10px;">
+    <div>
+        <img src="https://ncse.ngo/sites/default/files/styles/inline_article_image_857_wide_/public/2021-03/Pobiner_857x482.jpg?itok=CHcMxT4J" alt="Your Project Image" width="70px">
+    </div>
+    <div>
+        <a href="https://github.com/Ruchi-here">GitHub Profile</a>
+    </div>
+    <div>
+        <p>Skills: Python, JS, MongoDB</p>
+    </div>
+    <div>
+        <button class="accept-button">Accept</button>
+        <button class="reject-button" style="margin-top:5px;">Reject</button>
+    </div>
+</div>
+
+
+<div class="flex-container" style="margin-top:50px; display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 10px;">
+    <div>
+        <img src="https://images.unsplash.com/photo-1564564295391-7f24f26f568b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80" alt="Your Project Image" width="70px">
+    </div>
+    <div>
+        <a href="https://github.com/Ruchi-here">GitHub Profile</a>
+    </div>
+    <div>
+        <p>Skills: React, C, Cloud</p>
+    </div>
+    <div>
+        <button class="accept-button">Accept</button>
+        <button class="reject-button" style="margin-top:5px;">Reject</button>
+    </div>
+</div>
+    </main>
+    <script src="dashboard.js"></script>
+</body>
+</html>
+
+

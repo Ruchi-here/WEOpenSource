@@ -1,0 +1,44 @@
+ 	#button{
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        #button:hover {
+            background-color: #0056b3;
+        }
+
+        .reject-button {
+            padding:4px 10px;
+            background-color: #ff3547; /* Red color */
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .reject-button:hover {
+            background-color: #e60010; /* Darker red on hover */
+        }
+
+        .accept-button {
+            padding:4px 10px;
+            background-color: #28a745; /* Green color */
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .accept-button:hover {
+            background-color: #1e7e34; /* Darker green on hover */
+        }

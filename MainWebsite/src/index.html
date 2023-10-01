@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Search</title>
+    <meta name="title" content="Job Listings | Frontend Mentor | Alamin">
+    <meta name="description" content="Filter jobs based on role, level, languages, and tools.">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <script type="module" src="./main.js" defer></script>
+</head>
+<body>
+
+
+<main>
+<nav class="navigation">
+    <ul class="navigation__menu">
+        <li class="navigation__item">
+            <a href="about.html">Home</a>
+        </li>
+        <li class="navigation__item">
+            <a href="http://localhost:8501/">HelpBot</a>
+        </li>
+        <li class="navigation__item">
+            <a href="addProj.html">Add Proj</a>
+        </li>
+        <li class="navigation__item">
+            <a href="index.html">Find Proj</a>
+        </li>
+    </ul>
+</nav>
+    <div class="container">
+        <div class="filter-container" tabindex="0">
+            <div class="filter-container__filters">
+                <button class="skill" data-field="JavaScript" tabindex="0">JavaScript</button>
+                <button class="skill" data-field="CSS" tabindex="0">CSS</button>
+            </div>
+            <button class="btn-clear" tabindex="0">Clear</button>
+        </div>
+
+        <ul class="job-list" role="list">
+            <li class="job-item" role="listitem">
+            </li>
+        </ul>
+    </div>
+</main>
+
+<!-- Maybe make a footer -->
+
+</body>
+</html>
+

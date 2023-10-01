@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Project</title>
+    <link rel="stylesheet" href="./sass/main.scss">
+</head>
+<body>
+<nav class="navigation">
+    <ul class="navigation__menu">
+        <li class="navigation__item">
+            <a href="about.html">Home</a>
+        </li>
+        <li class="navigation__item">
+            <a href="http://localhost:8501/">HelpBot</a>
+        </li>
+        <li class="navigation__item">
+            <a href="addProj.html">Add Proj</a>
+        </li>
+        <li class="navigation__item">
+            <a href="index.html">Find Proj</a>
+        </li>
+    </ul>
+</nav>
+    <!-- Main Content -->
+    <main>
+        <h1>Add Project</h1>
+        <p style="font-size:21px; margin-top:15px;">Add your project here, so that people can start contributing</p>
+
+        <!-- Project Submission Form -->
+        <form id="projectForm" style="margin-left:350px; margin-right:350px; margin-top:75px;">
+            <input type="text" id="position" placeholder="Position" required>
+            <input type="text" id="companyName" placeholder="Company Name" required>
+            <textarea id="description" placeholder="Description" required></textarea>
+            <input type="text" id="githubRepoUrl" placeholder="GitHub Repo URL" required>
+            <input type="text" id="language" placeholder="Language" required>
+            <input type="text" id="category" placeholder="Category" required>
+            <input type="text" id="resources" placeholder="Resources" required>
+            <textarea id="contributionGuidelines" placeholder="Contribution Guidelines" required></textarea>
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </main>
+
+    <!-- Include your JavaScript file here -->
+    <script src="addProj.js"></script>
+</body>
+</html>
+

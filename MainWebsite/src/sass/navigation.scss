@@ -1,0 +1,35 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+
+.navigation__menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+}
+
+.navigation__item {
+  color: #fff;
+}
+
+.navigation__item a {
+  text-decoration: none;
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Adjust the margin for the first and last child elements */
+.navigation__menu li:first-child {
+  margin-right: auto; /* Pushes the "Home" element to the left */
+  margin-left: 0; /* Remove the left margin */
+}
+
+.navigation__menu li:last-child {
+  margin-right: 0; /* Remove the right margin */
+}
+
