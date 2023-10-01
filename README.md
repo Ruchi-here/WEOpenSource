@@ -65,9 +65,14 @@ streamlit run streamlit_app.py
 The Streamlit bot should now be running on http://localhost:8501/.
 
 
+
+
 Main Website Setup
 
 Open a new terminal.
+
+
+
 
 1.Navigate to the Main Website folder:
 
@@ -99,11 +104,16 @@ WEOpenSource should now be running locally at http://localhost:3000/.
 
 ## Common Errors
 
+
+
 1. Make sure that you are using OpenAI API Key else you'll encounter the below error
-   ![image](https://github.com/Ruchi-here/WEOpenSource/assets/122676573/9de7eb23-0a70-4f8c-ba7c-1c7cef6e03a8)
+
+![image](https://github.com/Ruchi-here/WEOpenSource/assets/122676573/9de7eb23-0a70-4f8c-ba7c-1c7cef6e03a8)
 
 2. Make sure you're setting up the streamlit bot before running the main website code, else you won't be able to access the NeedHelp bot
+
 3. Ensure that you have run npm install before running the npm start, else you'll face the following error
+
 ![image](https://github.com/Ruchi-here/WEOpenSource/assets/122676573/64ac524e-238a-42b6-9732-dea2eabd93aa)
 
 
