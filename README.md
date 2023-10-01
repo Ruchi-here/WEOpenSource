@@ -39,6 +39,8 @@ To run WEOpenSource locally, ensure you have the following prerequisites install
 
 - Node.js: [Download Node.js](https://nodejs.org/)
 - npm (Node Package Manager): This is typically included with Node.js installation.
+- streamlit package shoule be installed
+- openai library should also be installed before running streamlit code
 
 ### Streamlit Bot Setup
 
