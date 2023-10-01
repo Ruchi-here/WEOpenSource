@@ -1,5 +1,7 @@
 # WEOpenSource
 
+WEOpenSource is an open-source platform designed to connect individuals, open source projects, and organizations in the world of open-source software development. Our mission is to foster inclusivity, collaboration, and accessibility within the open-source community.
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
@@ -11,9 +13,8 @@
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
-## Introduction
 
-WEOpenSource is an open-source platform designed to connect individuals, open source projects, and organizations in the world of open-source software development. Our mission is to foster inclusivity, collaboration, and accessibility within the open-source community.
+
 
 ![website](https://github.com/Ruchi-here/WEOpenSource/assets/122676573/cefe99ac-5d95-462e-b7bd-ec62fe265108)
 
