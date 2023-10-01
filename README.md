@@ -46,9 +46,9 @@ To run WEOpenSource locally, ensure you have the following prerequisites install
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/yourusername/WEOpenSource.git
-   ```
+```bash
+git clone https://github.com/yourusername/WEOpenSource.git
+```
    
 2. Navigate to the Streamlit Bot folder:
 
