@@ -1,6 +1,6 @@
 # WEOpenSource
 
-WEOpenSource is an open-source platform designed to connect individuals, open source projects, and organizations in the world of open-source software development. Our mission is to foster inclusivity, collaboration, and accessibility within the open-source community.
+WEOpenSource is an open-source platform designed to connect individuals, open source projects, and organizations in the world of open-source software development. Our mission is to foster inclusivity, collaboration, and accessibility within the open-source community. 😁
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -21,7 +21,7 @@ WEOpenSource is an open-source platform designed to connect individuals, open so
 
 
 
-## Features
+## Features 
 
 WEOpenSource offers a range of features to empower both contributors and organizations:
 
@@ -42,7 +42,9 @@ To run WEOpenSource locally, ensure you have the following prerequisites install
 - streamlit package shoule be installed
 - openai library should also be installed before running streamlit code
 
-### Streamlit Bot Setup
+### Installation 🖥️
+
+## Streamlit Bot Setup
 
 1. Clone the repository:
 
@@ -67,10 +69,9 @@ The Streamlit bot should now be running on http://localhost:8501/.
 
 
 
-Main Website Setup
+## Main Website Setup
 
 Open a new terminal.
-
 
 
 
