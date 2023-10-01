@@ -57,8 +57,7 @@ cd WEOpenSource/StreamLitBot
 3. Run the Streamlit bot:
 
 ```bash
-
-    streamlit run streamlit_app.py
+streamlit run streamlit_app.py
 ```
 
 The Streamlit bot should now be running on http://localhost:8501/.
@@ -71,24 +70,19 @@ Open a new terminal.
 1.Navigate to the Main Website folder:
 
 ```bash
-
 cd WEOpenSource/MainWebsite
 ```
 
 2. Install project dependencies:
 
 ```bash
-
 npm install
-
 ```
 
 2. Start the development server:
 
 ```bash
-
 npm start
-
 ```
 
 WEOpenSource should now be running locally at http://localhost:3000/.
