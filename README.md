@@ -1,6 +1,6 @@
-# WEOpenSource
+# WEOpenSource 😁
 
-WEOpenSource is an open-source platform designed to connect individuals, open source projects, and organizations in the world of open-source software development. Our mission is to foster inclusivity, collaboration, and accessibility within the open-source community. 😁
+WEOpenSource is an open-source platform designed to connect individuals, open source projects, and organizations in the world of open-source software development. Our mission is to foster inclusivity, collaboration, and accessibility within the open-source community. 
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -21,7 +21,7 @@ WEOpenSource is an open-source platform designed to connect individuals, open so
 
 
 
-## Features 
+## Features 🌐
 
 WEOpenSource offers a range of features to empower both contributors and organizations:
 
@@ -103,7 +103,7 @@ WEOpenSource should now be running locally at http://localhost:3000/.
 
 
 
-## Common Errors
+## Common Errors 🔴
 
 
 
