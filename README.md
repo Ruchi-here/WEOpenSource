@@ -1,8 +1,5 @@
 # WEOpenSource
 
-```markdown
-# WEOpenSource
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
@@ -79,6 +76,3 @@ We welcome contributions from the open-source community. If you'd like to contri
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-WEOpenSource - Open Doors to Open Source
-```
