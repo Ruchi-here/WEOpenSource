@@ -74,13 +74,11 @@ Open a new terminal.
 ```bash
 cd WEOpenSource/MainWebsite
 ```
-
 2. Install project dependencies:
 
 ```bash
 npm install
 ```
-
 3. Start the development server:
 
 ```bash
