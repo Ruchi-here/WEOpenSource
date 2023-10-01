@@ -61,8 +61,10 @@ To run WEOpenSource locally, ensure you have the following prerequisites install
    ```
 
    WEOpenSource should now be running locally at `http://localhost:3000/`.
+   
+![command](https://github.com/Ruchi-here/WEOpenSource/assets/122676573/2994540f-ed77-43cd-9313-7a60180f2f74)
 
-   ![command](https://github.com/Ruchi-here/WEOpenSource/assets/122676573/a049f50a-c291-44f7-b8ae-ee6da8debda1)
+   
 
 
 ## Usage
